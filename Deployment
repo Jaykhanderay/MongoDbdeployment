@@ -1,0 +1,5 @@
+kubectl apply -f flask-deployment.yaml
+kubectl apply -f mongo-statefulset.yaml
+kubectl apply -f flask-service.yaml
+kubectl apply -f mongo-service.yaml
+kubectl apply -f flask-hpa.yaml
