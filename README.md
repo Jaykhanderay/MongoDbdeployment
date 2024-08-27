@@ -1,4 +1,4 @@
-First we instaled all the required files to run. i am using the dockerhub . first we need to create the flask app and then we go to the k8s where we create the yaml files .yaml stand for yet another markup language but now it change to yaml is not markup language.
+First we installed all the required files to run. i am using the dockerhub . first we need to create the flask app and then we go to the k8s where we create the yaml files .yaml stand for yet another markup language but now it change to yaml is not markup language.
  DNS Resolution in Kubernetes
 DNS resolution allows services within the Kubernetes cluster to communicate via their service names. For example, the Flask application can access MongoDB by referring to mongo-service as the host name.
 Kubernetes uses the kube-dns or CoreDNS service for DNS resolution, mapping service names to IP addresses within the cluster.
