@@ -1,0 +1,3 @@
+docker build -t flask-mongodb-app .
+docker tag flask-mongodb-app:latest yourusername/flask-mongodb-app:latest
+docker push yourusername/flask-mongodb-app:latest
